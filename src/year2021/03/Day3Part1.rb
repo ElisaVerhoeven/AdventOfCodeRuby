@@ -12,7 +12,7 @@ class Day3Part1
       gammaSum = 0
       for binaryPosition in 0 .. input.length - 1 do
         binary = input.at(binaryPosition).split("")
-        if binary[position].to_i === 1
+        if binary[position].to_i == 1
           gammaSum += 1
         end
         # puts input.at(binaryPosition)
